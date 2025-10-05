@@ -2,7 +2,7 @@ import cv2
 import os
 
 # Inisialisasi Cascade Classifier dan Webcam
-faceCascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
+faceCascade = cv2.CascadeClassifier("haarcascade_frontalface_alt2.xml")
 cap = cv2.VideoCapture(1) 
 
 # Path utama untuk dataset
